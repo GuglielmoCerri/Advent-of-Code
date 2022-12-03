@@ -8,8 +8,6 @@ In total I have currently 50 ⭐. I completed the AoC 2021. In this repo you wil
 <br/>
 
 ## ⭐ AoC completed over the years ⭐ 
------
-<br/>
 
 ### **2021**
 
