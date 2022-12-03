@@ -5,8 +5,6 @@ Solutions to AoC ([link](https://adventofcode.com/2022/about)) 2021 and 2022 pro
 
 In total I have currently 50 ⭐. I completed the AoC 2021. In this repo you will find the 2021 solutions inside a jupyter notebook and the ones for the 2022 in python script.
 
-<br/>
-
 ## Installation
 
 Create the environment from the environment.
