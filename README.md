@@ -16,6 +16,17 @@ yml file:
 > conda env create -f environment.yml
 ```
 
+## Usage
+
+Move to the `2022` folder. To run a single solution:
+
+```bash
+> python src/<DAY>.py
+```
+
+At the end is created a `log` file inside the `2022` folder. It will contains all solution with both part 1 and 2 and the elapsed time for each day.
+
+
 ## ⭐ AoC completed over the years ⭐ 
 
 ### **2021**
