@@ -1,0 +1,21 @@
+name: AoC
+channels:
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h1de35cc_0
+  - ca-certificates=2022.10.11=hecd8cb5_0
+  - libffi=3.4.2=hecd8cb5_6
+  - ncurses=6.3=hca72f7f_3
+  - openssl=1.1.1s=hca72f7f_0
+  - python=3.10.8=h218abb5_1
+  - readline=8.2=hca72f7f_0
+  - sqlite=3.40.0=h880c91c_0
+  - tk=8.6.12=h5d9f67b_0
+  - tzdata=2022f=h04d1e81_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.8=h6c40b1e_0
+  - zlib=1.2.13=h4dc903c_0
+  - pip:
+    - certifi==2022.9.24
+    - pip==22.2.2
+    - setuptools==65.5.0
