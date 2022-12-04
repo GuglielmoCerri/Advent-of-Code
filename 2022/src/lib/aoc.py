@@ -15,7 +15,7 @@ logger = log.config_log(Path(__file__).parents[2]  / 'log.log')
 #=============================================================================#
 
 #------------------------------------------------------------------------------
-def log_solution(day:str, p1:Any, p2:Any, elapsed:int) -> None:
+def log_solution(day:str, part, res:Any, elapsed:int) -> None:
     """ Write on the log file the results for the two parts for each day
 
     Args:
@@ -27,21 +27,20 @@ def log_solution(day:str, p1:Any, p2:Any, elapsed:int) -> None:
     Returns:
         None
     """
-    logger.info(f"DAY {day}") 
-    logger.info(f"Part 1: {p1}")
-    logger.info(f"Part 2: {p2}")
+    logger.info(f"DAY {day} - {part}") 
+    logger.info(f"Solution: {res}")
     logger.info(f"Time: {elapsed}ms \n")
 
     return None
 
 #------------------------------------------------------------------------------
-def main(day: str) -> Callable[[AocSolution], Callable[[],None]]:
+def main(day: str, part) -> Callable[[AocSolution], Callable[[],None]]:
   def decorator(solver: AocSolution) -> Callable[[],None]:
     def timer() -> None:
       indata = (INPUT_PATH / f'{day}.in').read_text()
       start = time.time()
-      p1, p2 = solver(indata.rstrip('\n'))
+      res = solver(indata.rstrip('\n'))
       elapsed = int((time.time() - start) * 1000)
-      _ = log_solution(day, p1, p2, elapsed)
+      _ = log_solution(day, part, res, elapsed)
     return timer
   return decorator
