@@ -1,4 +1,4 @@
-[![python](https://img.shields.io/badge/python-v3.10.0-green)](https://www.python.org/)
+[![python](https://img.shields.io/badge/python-v3.10.8-green)](https://www.python.org/)
 
 # 🎄 Advent-of-Code 🎅
 Solutions to AoC ([link](https://adventofcode.com/2022/about)) 2021 and 2022 problems in Python 3.10.
