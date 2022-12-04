@@ -30,3 +30,17 @@ At the end is created a `log` file inside the `2022` folder. It will contains al
 ### **2021**
 
 ![AoC2021](docs/completed_2021.png)
+
+
+## License
+
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
+
+
+## Contact
+
+Guglielmo Cerri - cerriguglielmo@gmail.com
+
+Project Link: [https://github.com/GuglielmoCerri/Advent-of-Code](https://github.com/GuglielmoCerri/Advent-of-Code)
+
+
