@@ -36,4 +36,5 @@ def main2(indata: str) -> Tuple[int, int]:
     return sum(calories[:3])
 
 if __name__ == "__main__":
+    main1()
     main2()
