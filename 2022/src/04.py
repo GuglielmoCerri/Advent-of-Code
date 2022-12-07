@@ -14,7 +14,7 @@ def full_range_subset(range1, range2):
 
 #-------------------------------------------------------------------------------    
 @aoc.main('04', 1)
-def main_p1(indata: str) -> Tuple[int, int]:
+def main_p1(indata: str) -> int:
     data = indata.split('\n')
     dup  = 0
     
@@ -30,7 +30,7 @@ def main_p1(indata: str) -> Tuple[int, int]:
 
 #-------------------------------------------------------------------------------    
 @aoc.main('04', 2)
-def main_p2(indata: str) -> Tuple[int, int]:
+def main_p2(indata: str) -> int:
     data = indata.split('\n')
     dup  = 0
     

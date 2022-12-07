@@ -28,7 +28,7 @@ win = {
 }
 
 @aoc.main('02', 1)
-def main1(indata: str) -> Tuple[int, int]:
+def main_p1(indata: str) -> int:
     data = indata.split('\n')
     score = 0
 
@@ -42,7 +42,7 @@ def main1(indata: str) -> Tuple[int, int]:
     return score
 
 @aoc.main('02', 2)
-def main2(indata: str) -> Tuple[int, int]:
+def main_p2(indata: str) -> int:
     data = indata.split('\n')
     score = 0
 
@@ -63,5 +63,5 @@ def main2(indata: str) -> Tuple[int, int]:
     return score
 
 if __name__ == "__main__":
-    main1()
-    main2()
+    main_p1()
+    main_p2()

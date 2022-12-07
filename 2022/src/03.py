@@ -6,7 +6,7 @@ ALPHABET = list(string.ascii_lowercase)
 
 
 @aoc.main('03', 1)
-def main_p1(indata: str) -> Tuple[int, int]:
+def main_p1(indata: str) -> int:
     data = indata.split('\n')
     score = 0
 
@@ -25,7 +25,7 @@ def main_p1(indata: str) -> Tuple[int, int]:
     return score
 
 @aoc.main('03', 2)
-def main_p2(indata: str) -> Tuple[int, int]:
+def main_p2(indata: str) -> int:
     data = indata.split('\n')
     score = 0
 
