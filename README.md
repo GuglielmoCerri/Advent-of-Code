@@ -1,9 +1,13 @@
 [![python](https://img.shields.io/badge/python-v3.10.8-green)](https://www.python.org/)
 
 # 🎄 Advent-of-Code 🎅
-Solutions to AoC ([link](https://adventofcode.com/2022/about)) 2021 and 2022 problems in Python 3.10.
 
-In total I have currently 50 ⭐. I completed the AoC 2021. In this repo you will find the 2021 solutions inside a jupyter notebook and the ones for the 2022 in python script.
+## Introduction
+Advent of Code ([link](https://adventofcode.com/2022/about)) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
+
+This repository contains the solutions to AoC 2021 and 2022 problems in Python 3.10.
+
+In total I have currently 66 ⭐. I completed the AoC 2021. In this repo you will find the 2021 solutions inside a jupyter notebook and the ones for the 2022 in python script.
 
 ## Installation
 
