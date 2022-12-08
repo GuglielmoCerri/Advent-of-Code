@@ -34,12 +34,12 @@ def log_solution(day:str, part, res:Any, elapsed:int) -> None:
     return None
 
 #------------------------------------------------------------------------------
-def main(day: str, part) -> Callable[[AocSolution], Callable[[],None]]:
-  def decorator(solver: AocSolution) -> Callable[[],None]:
+def main(day: str, part: int) -> Callable[ [AocSolution], Callable[ [], None ] ]:
+  def decorator(solver: AocSolution) -> Callable[ [], None ]:
     def timer() -> None:
       indata = (INPUT_PATH / f'{day}.in').read_text()
       start = time.time()
-      res = solver(indata.rstrip('\n'))
+      res = solver(indata)
       elapsed = int((time.time() - start) * 1000)
       _ = log_solution(day, part, res, elapsed)
     return timer
