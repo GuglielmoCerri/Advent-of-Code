@@ -1,6 +1,5 @@
 import lib.aoc as aoc
 from   itertools import *
-import math
 import functools as ft
 
 
