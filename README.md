@@ -14,21 +14,22 @@ In total I have currently 86 ⭐. I completed the AoC 2021. In this repo you wil
 ## Installation
 
 Create the environment from the environment.
-yml file:
+yml file inside the specific year folder:
 
 ```bash
+> cd <year> # cd 2022
 > conda env create -f environment.yml
 ```
 
 ## Usage
 
-Move to the `2022` folder. To run a single solution:
+To run a single solution:
 
 ```bash
 > python3 src/<DAY>.py
 ```
 
-At the end is created a `log` file inside the `2022` folder. It will contains all solution with both part 1 and 2 and the elapsed time for each day.
+At the end is created a `log` file inside the `<year>` folder. It will contains all solution with both part 1 and 2 and the elapsed time for each day.
 
 
 ## ⭐ AoC completed over the years ⭐ 
