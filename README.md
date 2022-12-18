@@ -1,4 +1,6 @@
-[![python](https://img.shields.io/badge/python-v3.10.8-green)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-red)](https://github.com/GuglielmoCerri/Advent-of-Code)
+![Github last commit](https://img.shields.io/github/last-commit/GuglielmoCerri/Advent-of-Code)
+[![python](https://img.shields.io/badge/python-v3.10.8-blue)](https://www.python.org/)
 
 # 🎄 Advent-of-Code 🎅
 
@@ -7,7 +9,7 @@ Advent of Code ([link](https://adventofcode.com/2022/about)) is an Advent calend
 
 This repository contains the solutions to AoC 2021 and 2022 problems in Python 3.10.
 
-In total I have currently 84 ⭐. I completed the AoC 2021. In this repo you will find the 2021 solutions inside a jupyter notebook and the ones for the 2022 in python script.
+In total I have currently 86 ⭐. I completed the AoC 2021. In this repo you will find the 2021 solutions inside a jupyter notebook and the ones for the 2022 in python script.
 
 ## Installation
 
