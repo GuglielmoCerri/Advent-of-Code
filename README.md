@@ -7,7 +7,7 @@ Advent of Code ([link](https://adventofcode.com/2022/about)) is an Advent calend
 
 This repository contains the solutions to AoC 2021 and 2022 problems in Python 3.10.
 
-In total I have currently 80 ⭐. I completed the AoC 2021. In this repo you will find the 2021 solutions inside a jupyter notebook and the ones for the 2022 in python script.
+In total I have currently 82 ⭐. I completed the AoC 2021. In this repo you will find the 2021 solutions inside a jupyter notebook and the ones for the 2022 in python script.
 
 ## Installation
 
