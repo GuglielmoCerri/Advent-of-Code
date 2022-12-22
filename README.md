@@ -38,7 +38,7 @@ At the end is created a `log` file inside the `<year>` folder. It will contains 
 
 **2021**            |  **2022**
 :-------------------------:|:-------------------------:
-<img src="docs/completed_2021.png" alt="AoC2021" width="450" height="450">  |  <img src="docs/completed_2022.png" alt="AoC2021" width="450" height="450"> 
+<img src="docs/completed_2021.png" alt="AoC2021" width="450" height="450">  |  <img src="docs/completed_2022.png" alt="AoC2022" width="450" height="450"> 
 
 </div>
 
