@@ -1,6 +1,6 @@
 ## Summary Table for AoC 2022
 
-<div class="center">
+<div align="center">
 
 | Day | Name | Stars | Code | Part 1 Time (ms) | Part 2 Time (ms) |
 |-:|-|-|-|-|-|
