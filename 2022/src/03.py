@@ -42,4 +42,5 @@ def main_p2(indata: str) -> int:
     return score
 
 if __name__ == "__main__":
+    main_p1()
     main_p2()
