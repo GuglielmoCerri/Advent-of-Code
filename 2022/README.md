@@ -1,3 +1,6 @@
+## Summary Table for AoC 2022
+
+<div class="center">
 
 | Day | Name | Stars | Code | Part 1 Time (ms) | Part 2 Time (ms) |
 |-:|-|-|-|-|-|
@@ -26,3 +29,5 @@
 | 23 | [Unstable Diffusion](https://adventofcode.com/2022/day/23) | ⭐⭐ | [23.py](src/23.py) | 182 | 18186 |
 | 24 | [Blizzard Basin](https://adventofcode.com/2022/day/24) | ⭐⭐ | [24.py](src/24.py) | 1254 | 3582 |
 | 25 | [Full of Hot Air](https://adventofcode.com/2022/day/25) | ⭐⭐ | [25.py](src/25.py) | 1 | / |
+
+</div>
