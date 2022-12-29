@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-red)](https://github.com/GuglielmoCerri/Advent-of-Code)
 ![Github last commit](https://img.shields.io/github/last-commit/GuglielmoCerri/Advent-of-Code)
-[![python](https://img.shields.io/badge/python-v3.10.8-blue)](https://www.python.org/)
+[![python](https://img.shields.io/badge/python-v3-blue)](https://www.python.org/)
 
 # 🎄 Advent-of-Code 🎅
 
