@@ -26,21 +26,20 @@ yml file inside the specific year folder:
 To run a single solution:
 
 ```bash
+> conda activate AoC # Activate conda environment
+```
+
+```bash
 > python3 src/<DAY>.py
 ```
 
 At the end is created a `log` file inside the `<year>` folder. It will contains all solution with both part 1 and 2 and the elapsed time for each day.
 
+It is also possible to run all days within a year using. 
 
-## ⭐ AoC completed over the years ⭐ 
-
-<div align="center">
-
-**2021**            |  **2022**
-:-------------------------:|:-------------------------:
-<img src="docs/completed_2021.png" alt="AoC2021" width="450" height="450">  |  <img src="docs/completed_2022.png" alt="AoC2022" width="450" height="450"> 
-
-</div>
+```bash
+> python3 run_all.py
+```
 
 ## License
 
