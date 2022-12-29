@@ -1,11 +1,9 @@
 ## AoC 2022 Summary Table
----
 
 <div align="center">
 
-<br>
 <kbd>
-<img src="docs/AoC2022.gif" alt="AoC2022" width="350" height="350" />
+<img src="docs/AoC2022.gif" alt="AoC2022" width="400" height="400" />
 </kbd>
 <br>
 <br>
