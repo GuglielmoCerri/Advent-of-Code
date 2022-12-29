@@ -7,14 +7,17 @@
 ## Introduction
 Advent of Code ([link](https://adventofcode.com/2022/about)) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
 
-This repository contains the solutions to AoC 2021 and 2022 problems in Python 3.10.
+This repository contains the complete solutions to AoC 2021 and 2022 in python
 
-In total I have currently 86 ⭐. I completed the AoC 2021. In this repo you will find the 2021 solutions inside a jupyter notebook and the ones for the 2022 in python script.
+In total I currently have 100 ⭐. 
+
+In this repo you will find the solutions to:
+*   AoC 2021 in jupyter notebook 
+*   AoC 2022 in python3.10
 
 ## Installation
 
-Create the environment from the environment.
-yml file inside the specific year folder:
+Create the environment from the environment.yml file inside the specific year folder:
 
 ```bash
 > cd <year> # cd 2022
@@ -33,9 +36,11 @@ To run a single solution:
 > python3 src/<DAY>.py
 ```
 
-At the end is created a `log` file inside the `<year>` folder. It will contains all solution with both part 1 and 2 and the elapsed time for each day.
+At the end of the script is created a `log` file inside the `<year>` folder. 
+It will contains the solution and the elapsed time for both part 1 and part 2
+for that day.
 
-It is also possible to run all days within a year using. 
+It is also possible to run all days, at once, within a year using: 
 
 ```bash
 > python3 run_all.py
