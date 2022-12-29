@@ -17,8 +17,8 @@
 | 5 | [Supply Stacks](https://adventofcode.com/2022/day/5) | ⭐⭐ | [05.py](src/05.py) | 2 | 1 |
 | 6 | [Tuning Trouble](https://adventofcode.com/2022/day/6) | ⭐⭐ | [06.py](src/06.py) | 0 | 2 |
 | 7 | [No Space Left On Device](https://adventofcode.com/2022/day/7) | ⭐⭐ | [07.py](src/07.py) | 0 | 0 |
-| 8 | [Treetop Tree House](https://adventofcode.com/2022/day/8) | ⭐⭐ | [0.py](src/08.py) | 228 | 231 |
-| 9 | [Rope Bridge](https://adventofcode.com/2022/day/9) | ⭐⭐ | [0.py](src/09.py) | 16 | 27 |
+| 8 | [Treetop Tree House](https://adventofcode.com/2022/day/8) | ⭐⭐ | [08.py](src/08.py) | 228 | 231 |
+| 9 | [Rope Bridge](https://adventofcode.com/2022/day/9) | ⭐⭐ | [09.py](src/09.py) | 16 | 27 |
 | 10 | [Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | ⭐⭐ | [10.py](src/10.py) | 0 | 0 |
 | 11 | [Monkey in the Middle](https://adventofcode.com/2022/day/11) | ⭐⭐ | [11.py](src/11.py) | 2 | 1050 |
 | 12 | [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | ⭐⭐ | [12.py](src/12.py) | 263 | 118 |
