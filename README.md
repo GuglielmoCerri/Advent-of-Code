@@ -5,7 +5,7 @@
 # 🎄 Advent-of-Code 🎅
 
 ## Introduction
-Advent of Code ([link](https://adventofcode.com/2022/about)) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
+[Advent of Code](https://adventofcode.com/2022/about) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
 
 This repository contains the complete solutions to AoC 2021 and 2022 in python
 
