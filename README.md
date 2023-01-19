@@ -1,8 +1,8 @@
+# 🎄 Advent-of-Code 🎅 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20this%20repo%20for%20AoC%20solutions%20in%20python%20🎄🎅🐍&url=https://github.com/GuglielmoCerri/Advent-of-Code&hashtags=AoC,AdventOfCode,python,developer)
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-red)](https://github.com/GuglielmoCerri/Advent-of-Code)
 ![Github last commit](https://img.shields.io/github/last-commit/GuglielmoCerri/Advent-of-Code)
 [![python](https://img.shields.io/badge/python-v3-blue)](https://www.python.org/)
-
-# 🎄 Advent-of-Code 🎅
 
 ## Introduction
 [Advent of Code](https://adventofcode.com/2022/about) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
