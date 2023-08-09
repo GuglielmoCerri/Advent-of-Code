@@ -46,6 +46,23 @@ It is also possible to run all days, at once, within a year using:
 > python3 run_all.py
 ```
 
+## Solutions
+Here is a list of the Advent of Code years for which I have provided solutions:
+
+- [Year 2021](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2021)
+- [Year 2022](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2022)
+
+Feel free to explore each year to see how I approached various problems!
+
+## Contributions
+I'm proud to announce that my solutions have been integrated into the [awesome-advent-of-code](https://github.com/Bogdanp/awesome-advent-of-code) repository. This curated repository compiles the best Advent of Code resources, including language-specific sections.
+
+To directly navigate to the Python section where my solutions reside, you can [click here](https://github.com/Bogdanp/awesome-advent-of-code#python).
+
+Thank you for exploring my Advent of Code journey. I hope you find these solutions insightful and enjoyable!
+
+---
+
 ## License
 
 Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
