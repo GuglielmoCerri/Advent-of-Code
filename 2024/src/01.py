@@ -1,7 +1,7 @@
 import lib.aoc as aoc
 
-@aoc.main('01', 1)
-def main_p1(indata: str) -> int:
+@aoc.aoc('01', 1)
+def p1(indata: str) -> int:
     
     c1, c2 = [], []
     for line in indata.splitlines():
@@ -15,8 +15,8 @@ def main_p1(indata: str) -> int:
     return sum([abs(c1[i] - c2[i]) for i in range(len(c1))])
 
 
-@aoc.main('01', 2)
-def main_p2(indata: str) -> int:
+@aoc.aoc('01', 2)
+def p2(indata: str) -> int:
     c1, c2 = [], []
     for line in indata.splitlines():
         vals = line.strip().split()
@@ -26,5 +26,5 @@ def main_p2(indata: str) -> int:
     return sum([v * c2.count(v) for v in c1])
 
 if __name__ == "__main__":
-    main_p1()
-    main_p2()
+    p1()
+    p2()

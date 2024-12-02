@@ -34,7 +34,7 @@ def log_solution(day:str, part, res:Any, elapsed:int) -> None:
     return None
 
 #------------------------------------------------------------------------------
-def main(day: str, part: int) -> Callable[ [AocSolution], Callable[ [], None ] ]:
+def aoc(day: str, part: int) -> Callable[ [AocSolution], Callable[ [], None ] ]:
   def decorator(solver: AocSolution) -> Callable[ [], None ]:
     def timer() -> None:
       indata = (INPUT_PATH / f'{day}.in').read_text()
