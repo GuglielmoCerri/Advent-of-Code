@@ -1,6 +1,6 @@
-import lib.aoc as aoc
+from lib.aoc import aoc
 
-@aoc.aoc('01', 1)
+@aoc('01', 1)
 def p1(indata: str) -> int:
     
     c1, c2 = [], []
@@ -15,7 +15,7 @@ def p1(indata: str) -> int:
     return sum([abs(c1[i] - c2[i]) for i in range(len(c1))])
 
 
-@aoc.aoc('01', 2)
+@aoc('01', 2)
 def p2(indata: str) -> int:
     c1, c2 = [], []
     for line in indata.splitlines():
