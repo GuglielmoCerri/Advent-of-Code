@@ -30,6 +30,22 @@ def find_xmas(grid):
                     count += 1
     return count
 
+def find_xmas_x(grid):
+    rows, cols = len(grid), len(grid[0])
+    count = 0
+
+    _set = {"M", "S"}
+
+    for r in range(1, rows - 1):
+        for c in range(1, cols - 1):
+            if grid[r][c] == "A":
+                top_left_bottom_right = {grid[r - 1][c - 1], grid[r + 1][c + 1]}  # top-left to bottom-right diagonal
+                top_right_bottom_left = {grid[r - 1][c + 1], grid[r + 1][c - 1]}  # top-right to bottom-left diagonal
+                
+                if top_left_bottom_right == _set and top_right_bottom_left == _set:
+                    count += 1
+    return count
+
 @aoc('04', 1)
 def p1(indata: str) -> int:
     grid = [list(row) for row in indata.splitlines()]
@@ -37,7 +53,8 @@ def p1(indata: str) -> int:
 
 @aoc('04', 2)
 def p2(indata: str) -> int:
-    ...
+    grid = [list(row) for row in indata.splitlines()]
+    return find_xmas_x(grid)
 
 if __name__ == "__main__":
     p1()

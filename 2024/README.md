@@ -13,7 +13,7 @@
 | 1 | [Historian Hysteria](https://adventofcode.com/2024/day/1) | ⭐⭐ | [01.py](src/01.py) | 0 | 0 |
 | 2 | [Red-Nosed Reports](https://adventofcode.com/2024/day/2) | ⭐⭐ | [02.py](src/02.py) | 0 | 0 |
 | 3 | [Mull It Over](https://adventofcode.com/2024/day/3) | ⭐⭐ | [03.py](src/03.py) | 0 | 0 |
-| 4 | [](https://adventofcode.com/2024/day/4) | ⭐⭐ | [04.py](src/04.py) | 0 | 0 |
+| 4 | [Ceres Search](https://adventofcode.com/2024/day/4) | ⭐⭐ | [04.py](src/04.py) | 0 | 0 |
 | 5 | [](https://adventofcode.com/2024/day/5) | ⭐⭐ | [05.py](src/05.py) | 0 | 0 |
 | 6 | [](https://adventofcode.com/2024/day/6) | ⭐⭐ | [06.py](src/06.py) | 0 | 0 |
 | 7 | [](https://adventofcode.com/2024/day/7) | ⭐⭐ | [07.py](src/07.py) | 0 | 0 |
