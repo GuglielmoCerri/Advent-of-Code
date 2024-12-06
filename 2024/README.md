@@ -15,7 +15,7 @@
 | 3 | [Mull It Over](https://adventofcode.com/2024/day/3) | ⭐⭐ | [03.py](src/03.py) | 0 | 0 |
 | 4 | [Ceres Search](https://adventofcode.com/2024/day/4) | ⭐⭐ | [04.py](src/04.py) | 0 | 0 |
 | 5 | [Print Queue](https://adventofcode.com/2024/day/5) | ⭐⭐ | [05.py](src/05.py) | 0 | 0 |
-| 6 | [](https://adventofcode.com/2024/day/6) | ⭐⭐ | [06.py](src/06.py) | 0 | 0 |
+| 6 | [Guard Gallivant](https://adventofcode.com/2024/day/6) | ⭐⭐ | [06.py](src/06.py) | 0 | 0 |
 | 7 | [](https://adventofcode.com/2024/day/7) | ⭐⭐ | [07.py](src/07.py) | 0 | 0 |
 | 8 | [](https://adventofcode.com/2024/day/8) | ⭐⭐ | [08.py](src/08.py) | 0 | 0 |
 | 9 | [](https://adventofcode.com/2024/day/9) | ⭐⭐ | [09.py](src/09.py) | 0 | 0 |
