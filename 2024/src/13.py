@@ -36,10 +36,6 @@ def solve(Ax, Ay, Bx, By, Px, Py):
     A = det_x // det
     B = det_y // det
     
-    # A and B must be positive
-    if A < 0 or B < 0:
-        return None
-    
     return A * 3 + B * 1
 
 @aoc('13', 1)
