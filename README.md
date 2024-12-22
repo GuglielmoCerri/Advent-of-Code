@@ -1,6 +1,4 @@
-# 🎄 Advent-of-Code 🎅 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20this%20repo%20for%20AoC%20solutions%20in%20python%20🎄🎅🐍&url=https://github.com/GuglielmoCerri/Advent-of-Code&hashtags=AoC,AdventOfCode,python,developer)
-
-[![License: MIT](https://img.shields.io/badge/license-MIT-red)](https://github.com/GuglielmoCerri/Advent-of-Code)
+# Advent-of-Code
 ![Github last commit](https://img.shields.io/github/last-commit/GuglielmoCerri/Advent-of-Code)
 [![python](https://img.shields.io/badge/python-v3-blue)](https://www.python.org/)
 
@@ -36,9 +34,11 @@ To run a single solution:
 > python3 src/<DAY>.py
 ```
 
-At the end of the script is created a `log` file inside the `<year>` folder. 
-It will contains the solution and the elapsed time for both part 1 and part 2
-for that day.
+At the end of the script is created a `log` file inside the `<year>` folder.
+
+From 2024, you can use the Python package [`aocd`](https://github.com/wimglenn/advent-of-code-data) to automatically download the inputs for the various quizzes. You just need to create a `.env` file inside `src/lib` that contains the variable `AOC_SESSION` with the session token of the account you are logged in with on Advent of Code, as the inputs are different for each user.
+
+The session ID is a cookie which is set when you login to AoC. You can find it with your browser inspector. If you need help with that part then you can look [here](https://github.com/wimglenn/advent-of-code-wim/issues/1).
 
 It is also possible to run all days, at once, within a year using: 
 
