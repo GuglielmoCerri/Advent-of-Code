@@ -38,7 +38,7 @@ def solve(Ax, Ay, Bx, By, Px, Py):
     
     return A * 3 + B * 1
 
-@aoc('13', 1)
+@aoc(13, 2024, 1)
 def p1(indata: str) -> int:
     input = [line for line in indata.strip().splitlines() if line]
     grouped = [input[i:i + 3] for i in range(0, len(input), 3)]
@@ -52,7 +52,7 @@ def p1(indata: str) -> int:
 
     return total_cost
 
-@aoc('13', 2)
+@aoc(13, 2024, 2)
 def p2(indata: str) -> int:
     input = [line for line in indata.strip().splitlines() if line]
     grouped = [input[i:i + 3] for i in range(0, len(input), 3)]

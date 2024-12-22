@@ -34,7 +34,7 @@ def count_quadrants(positions, width, height):
             quadrants[3] += 1
     return quadrants
 
-@aoc('14', 1)
+@aoc(14, 2024, 1)
 def p1(indata: str) -> int:
     data = indata.strip().splitlines()
     robots = parse_input(data)
@@ -49,7 +49,7 @@ def p1(indata: str) -> int:
 
     return safety_factor
 
-@aoc('14', 2)
+@aoc(14, 2024, 2)
 def p2(indata: str) -> int:
     data = indata.strip().splitlines()
     robots = parse_input(data)

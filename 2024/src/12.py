@@ -32,7 +32,7 @@ def get_curr_group(grid, coord):
                 stack.append((ny, nx))
     return adjs
 
-@aoc('12', 1)
+@aoc(12, 2024, 1)
 def p1(indata: str) -> int:
     data = indata.strip().split("\n")
     grid, coords_by_type = parse_data(data)
@@ -66,7 +66,7 @@ def p1(indata: str) -> int:
 
     return sum(prices.values())
 
-@aoc('12', 2)
+@aoc(12, 2024, 2)
 def p2(indata: str) -> int:
     data = indata.strip().split("\n")
     grid, coords_by_type = parse_data(data)

@@ -43,7 +43,7 @@ def run_program(registers, program):
 
     return outputs
 
-@aoc('17', 1)
+@aoc(17, 2024, 1)
 def p1(indata: str):
     data = indata.strip().splitlines()
     registers = [
@@ -56,7 +56,7 @@ def p1(indata: str):
     result = run_program(registers, program)
     return ",".join(map(str, result))
 
-@aoc('17', 2)
+@aoc(17, 2024, 2)
 def p2(indata: str):
     data = indata.strip().splitlines()
     program = list(map(int, data[4].split(": ")[1].split(",")))

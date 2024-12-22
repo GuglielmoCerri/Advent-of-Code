@@ -24,13 +24,13 @@ def res(values, N):
 
     return sum(stones.values())
 
-@aoc('11', 1)
+@aoc(11, 2024, 1)
 def p1(indata: str) -> int:
     values = indata.split()
     return res(values, N = 25)
     
 
-@aoc('11', 2)
+@aoc(11, 2024, 2)
 def p2(indata: str) -> int:
     values = indata.split()
     return res(values, N = 75)

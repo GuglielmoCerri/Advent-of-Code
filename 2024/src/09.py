@@ -56,13 +56,13 @@ def compact_files(ns):
     )
     return checksum
 
-@aoc('09', 1)
+@aoc(9, 2024, 1)
 def p1(indata: str) -> int:
     map = decompress(indata)
     compacted_map = compact_blocks(map)
     return checksum(compacted_map)
 
-@aoc('09', 2)
+@aoc(9, 2024, 2)
 def p2(indata: str) -> int:
     ns = list(map(int, indata.strip()))  
     return compact_files(ns)

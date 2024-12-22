@@ -112,7 +112,7 @@ def resize_grid( grid):
     new_grid = [list("".join(_mappings[c] for c in line)) for line in grid]
     return new_grid
 
-@aoc('15', 1)
+@aoc(15, 2024, 1)
 def p1(indata: str):
     part = 1
     grid, moves = indata.split("\n\n")
@@ -126,7 +126,7 @@ def p1(indata: str):
     _sum = get_coords_sum(grid, part)
     return _sum
 
-@aoc('15', 2)
+@aoc(15, 2024, 2)
 def p2(indata: str):
     part = 2
     grid, moves = indata.split("\n\n")

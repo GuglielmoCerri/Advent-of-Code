@@ -38,7 +38,7 @@ def topological_sort(update, rules):
 
         return sorted_update
 
-@aoc('05', 1)
+@aoc(5, 2024, 1)
 def p1(indata: str) -> int:
     rules_section, updates_section = indata.strip().split("\n\n")
     rules = [tuple(map(int, line.split('|'))) for line in rules_section.splitlines()]
@@ -52,7 +52,7 @@ def p1(indata: str) -> int:
 
     return res
 
-@aoc('05', 2)
+@aoc(5, 2024, 2)
 def p2(indata: str) -> int:
 
     rules_section, updates_section = indata.strip().split("\n\n")

@@ -52,7 +52,7 @@ def get_anti_nodes_p2(antennas, antenna, width, height):
                 ay -= dy
     return anti_nodes
 
-@aoc('08', 1)
+@aoc(8, 2024, 1)
 def p1(indata: str) -> int:
     antennas, width, height = parse(indata)
     anti_nodes = set()
@@ -60,7 +60,7 @@ def p1(indata: str) -> int:
         anti_nodes.update(get_anti_nodes(antennas, antenna, width, height))
     return len(anti_nodes)
 
-@aoc('08', 2)
+@aoc(8, 2024, 2)
 def p2(indata: str) -> int:
     antennas, width, height = parse(indata)
     anti_nodes = set()

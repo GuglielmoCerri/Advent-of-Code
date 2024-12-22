@@ -19,7 +19,7 @@ def check(test, vals, part2=False):
     return h(test, vals, 1, vals[0])
     
 
-@aoc('07', 1)
+@aoc(7, 2024, 1)
 def p1(indata: str) -> int:
     res = 0
     for data in indata.splitlines():
@@ -30,7 +30,7 @@ def p1(indata: str) -> int:
     return res
 
 
-@aoc('07', 2)
+@aoc(7, 2024, 2)
 def p2(indata: str) -> int:
     res = 0
     for data in indata.splitlines():

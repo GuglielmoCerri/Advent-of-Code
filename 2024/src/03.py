@@ -13,13 +13,13 @@ def find_int_from_instructions(instructions):
         data.append(tuple(map(int, re.findall(r'\d{1,3}', ins))))
     return data   
 
-@aoc('03', 1)
+@aoc(3, 2024, 1)
 def p1(indata: str) -> int:
     instructions = find_instructions(indata)
     vals = find_int_from_instructions(instructions)
     return sum(x * y for x, y in vals)
 
-@aoc('03', 2)
+@aoc(3, 2024, 2)
 def p2(indata: str) -> int:
     """Solution for Part 2."""
     pattern = r"(mul\(\d{1,3},\d{1,3}\)|do\(\)|don't\(\))"

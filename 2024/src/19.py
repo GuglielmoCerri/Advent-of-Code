@@ -38,7 +38,7 @@ def get_valid_count(design, towels):
 
     return matching_towel(0)
 
-@aoc('19', 1)
+@aoc(19, 2024, 1)
 def p1(indata):
     data = indata.strip().splitlines()
     towels = sorted(data[0].split(", "), key=len)
@@ -50,7 +50,7 @@ def p1(indata):
             count += 1
     return count
 
-@aoc('19', 2)
+@aoc(19, 2024, 2)
 def p2(indata):
     data = indata.strip().splitlines()
     towels = sorted(data[0].split(", "), key=len)

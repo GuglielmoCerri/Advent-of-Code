@@ -6,7 +6,7 @@ def is_safe(vals):
     valid_diff = all(1 <= abs(vals[i] - vals[i + 1]) <= 3 for i in range(len(vals) - 1))
     return (is_inc or is_dec) and valid_diff
 
-@aoc('02', 1)
+@aoc(2, 2024, 1)
 def p1(indata: str) -> int:
     res = 0
     for line in indata.splitlines():
@@ -18,7 +18,7 @@ def p1(indata: str) -> int:
 
     return res
 
-@aoc('02', 2)
+@aoc(2, 2024, 2)
 def p2(indata: str) -> int:
     res = 0
     for line in indata.splitlines():

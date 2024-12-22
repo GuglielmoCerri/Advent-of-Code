@@ -1,6 +1,6 @@
 from lib.aoc import aoc
 
-@aoc('06', 1)
+@aoc(6, 2024, 1)
 def p1(indata: str) -> int:
     ls = indata.strip().split("\n")
     board = {i + 1j * j: x for i, l in enumerate(ls) for j, x in enumerate(l)}
@@ -22,7 +22,7 @@ def p1(indata: str) -> int:
     return len(seen)
 
 
-@aoc('06', 2)
+@aoc(6, 2024, 2)
 def p2(indata: str) -> int:
     ls = indata.strip().split("\n")
     board = {i + 1j * j: x for i, l in enumerate(ls) for j, x in enumerate(l)}

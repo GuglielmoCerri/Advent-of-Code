@@ -80,7 +80,7 @@ def get_shortest_path_steps():
                     queue.append(((nx, ny), length + 1))
         return -1  # no path
 
-@aoc('18', 1)
+@aoc(18, 2024, 1)
 def p1(indata):
     global USE_NETWORKX
     USE_NETWORKX = False
@@ -89,7 +89,7 @@ def p1(indata):
     steps = get_shortest_path_steps()
     return steps
 
-@aoc('18', 2)
+@aoc(18, 2024, 2)
 def p2(indata):
     global USE_NETWORKX, CORRUPTED_LENGTH
     USE_NETWORKX = False

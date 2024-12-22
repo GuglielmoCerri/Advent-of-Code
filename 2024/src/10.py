@@ -21,7 +21,7 @@ def get_score(_map, i, j):
 
     return endpoints
 
-@aoc('10', 1)
+@aoc(10, 2024, 1)
 def p1(indata: str) -> int:
     data = indata.strip().splitlines()
     _map = [list(map(int, line)) for line in data]
@@ -35,7 +35,7 @@ def p1(indata: str) -> int:
                 score += len(set(endpoints))
     return score
 
-@aoc('10', 2)
+@aoc(10, 2024, 2)
 def p2(indata: str) -> int:
     data = indata.strip().splitlines()
     _map = [list(map(int, line)) for line in data]

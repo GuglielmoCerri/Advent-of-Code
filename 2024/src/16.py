@@ -52,13 +52,13 @@ def find_routes(data):
 
     return routes
 
-@aoc('16', 1)
+@aoc(16, 2024, 1)
 def p1(indata: str):
     possible_routes = find_routes(indata.strip().splitlines())
     min_score = min(r[1] for r in possible_routes)
     return min_score
 
-@aoc('16', 2)
+@aoc(16, 2024, 2)
 def p2(indata: str):
     possible_routes = find_routes(indata.strip().splitlines())
     min_score = min(r[1] for r in possible_routes)

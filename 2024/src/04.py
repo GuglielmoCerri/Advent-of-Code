@@ -46,12 +46,12 @@ def find_xmas_x(grid):
                     count += 1
     return count
 
-@aoc('04', 1)
+@aoc(4, 2024, 1)
 def p1(indata: str) -> int:
     grid = [list(row) for row in indata.splitlines()]
     return find_xmas(grid)
 
-@aoc('04', 2)
+@aoc(4, 2024, 2)
 def p2(indata: str) -> int:
     grid = [list(row) for row in indata.splitlines()]
     return find_xmas_x(grid)
