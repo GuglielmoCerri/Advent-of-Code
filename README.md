@@ -20,7 +20,7 @@ In this repo you will find the solutions to:
 Create the environment from the environment.yml file inside the specific year folder:
 
 ```bash
-> cd <year> # cd 2022
+> cd <year> # cd 2024
 > conda env create -f environment.yml
 ```
 
@@ -51,6 +51,7 @@ Here is a list of the Advent of Code years for which I have provided solutions:
 
 - [Year 2021](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2021)
 - [Year 2022](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2022)
+- [Year 2024](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2024)
 
 Feel free to explore each year to see how I approached various problems!
 
