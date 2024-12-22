@@ -111,11 +111,11 @@ def _code_complexity(code: str, iter_size: int) -> int:
 def _parse_input(in_str: str) -> list[str]:
     return in_str.splitlines()
 
-@aoc('21', 1)
+@aoc(21, 2024, 1)
 def p1(indata, depth=2):
     return sum(_code_complexity(_, depth) for _ in _parse_input(indata))
 
-@aoc('21', 2)
+@aoc(21, 2024, 2)
 def p2(indata, depth=25):
     return sum(_code_complexity(_, depth) for _ in _parse_input(indata))
 
