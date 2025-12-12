@@ -1,17 +1,20 @@
 # Advent-of-Code
+
 ![Github last commit](https://img.shields.io/github/last-commit/GuglielmoCerri/Advent-of-Code)
 [![python](https://img.shields.io/badge/python-v3-blue)](https://www.python.org/)
 
 ## Introduction
-[Advent of Code](https://adventofcode.com/2022/about) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
 
-This repository contains the complete solutions to AoC 2021 and 2022 in python
+[Advent of Code](https://adventofcode.com/2025/about) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
 
-In total I currently have 100 ⭐. 
+This repository contains the complete solutions to AoC 2021 and 2025 in python and C.
 
 In this repo you will find the solutions to:
-*   AoC 2021 in jupyter notebook 
-*   AoC 2022 in python3.10
+
+* AoC 2021 in jupyter notebook
+* AoC 2022 in python3.10
+* AoC 2024 in python
+* AoC 2025 in C
 
 ## Installation
 
@@ -40,25 +43,28 @@ From 2024, you can use the Python package [`aocd`](https://github.com/wimglenn/a
 
 The session ID is a cookie which is set when you login to AoC. You can find it with your browser inspector. If you need help with that part then you can look [here](https://github.com/wimglenn/advent-of-code-wim/issues/1).
 
-It is also possible to run all days, at once, within a year using: 
+It is also possible to run all days, at once, within a year using:
 
 ```bash
 > python3 run_all.py
 ```
 
 ## Solutions
+
 Here is a list of the Advent of Code years for which I have provided solutions:
 
-- [Year 2021](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2021)
-- [Year 2022](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2022)
-- [Year 2024](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2024)
+* [Year 2021](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2021)
+* [Year 2022](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2022)
+* [Year 2024](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2024)
+* [Year 2025](https://github.com/GuglielmoCerri/Advent-of-Code/tree/main/2025)
 
 Feel free to explore each year to see how I approached various problems!
 
 ## Contributions
+
 I'm proud to announce that my solutions have been integrated into the [awesome-advent-of-code](https://github.com/Bogdanp/awesome-advent-of-code) repository. This curated repository compiles the best Advent of Code resources, including language-specific sections.
 
-To directly navigate to the Python section where my solutions reside, you can [click here](https://github.com/Bogdanp/awesome-advent-of-code#python).
+To directly navigate to the Python section where my solutions reside, you can [go here](https://github.com/Bogdanp/awesome-advent-of-code#python).
 
 Thank you for exploring my Advent of Code journey. I hope you find these solutions insightful and enjoyable!
 
@@ -68,11 +74,8 @@ Thank you for exploring my Advent of Code journey. I hope you find these solutio
 
 Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
-
 ## Contact
 
-Guglielmo Cerri - cerriguglielmo@gmail.com
+Guglielmo Cerri - <cerriguglielmo@gmail.com>
 
 Project Link: [https://github.com/GuglielmoCerri/Advent-of-Code](https://github.com/GuglielmoCerri/Advent-of-Code)
-
-
